@@ -34,6 +34,8 @@
     "karma-phantomjs-launcher": "^0.2.0",
     "mapbox": "^0.1.0",
     "phantomjs": "^1.9.17",
+    "react": "^0.13.3",
+    "react-tools": "^0.13.3",
     "reactify": "^1.1.1",
     "stringify": "^3.1.0",
     "underscore": "^1.8.3",
@@ -59,8 +61,9 @@
   "homepage": "https://github.com/rakannimer/react-google-charts",
   "dependencies": {
     "q": "^1.4.1",
-    "react": "^0.13.3",
-    "react-tools": "^0.13.3",
     "jquery": "^2.1.4"
+  },
+  "peerDependencies": {
+    "react": "0.13.x"
   }
 }
