@@ -64,6 +64,6 @@
     "jquery": "^2.1.4"
   },
   "peerDependencies": {
-    "react": "0.13.x"
+    "react": "^0.13.0"
   }
 }
