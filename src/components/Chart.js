@@ -15,7 +15,7 @@ var Chart = React.createClass({
 	data_table: [],
 	getInitialState: function() {
 		return {
-            graphId: this.props.graphId || generateUniqueId()
+            graph_id: this.props.graph_id || generateUniqueId()
 		};
 	},
 	componentDidMount: function(){
@@ -59,7 +59,7 @@ var Chart = React.createClass({
 
 
 	render: function() {
-		return React.DOM.div({id: this.state.graphId, style: {height: this.props.height, width:this.props.width}});
+		return React.createElement("div", {id: this.state.graph_id, style: {height: this.props.height, width:this.props.width}})
 	},
 	build_data_table : function() {
 
@@ -98,7 +98,7 @@ var Chart = React.createClass({
 				chartType: this.props.chartType,
 				dataTable: this.data_table,
 				options: this.props.options,
-				containerId: this.state.graphId
+				containerId: this.state.graph_id
 			});
 
 			this.data_table = this.wrapper.getDataTable();
