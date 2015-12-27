@@ -61,11 +61,10 @@
   "homepage": "https://github.com/rakannimer/react-google-charts",
   "dependencies": {
     "q": "^1.4.1",
-    "react": ">=0.13.3",
     "react-tools": "^0.13.3",
     "jquery": "^2.1.4"
   },
   "peerDependencies": {
-    "react": "^0.13.0"
+    "react": ">=0.13.3"
   }
 }

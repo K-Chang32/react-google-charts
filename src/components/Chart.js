@@ -98,7 +98,7 @@ var Chart = React.createClass({
 				chartType: this.props.chartType,
 				dataTable: this.data_table,
 				options: this.props.options,
-				containerId: this.state.graph_id
+				containerId: this.state.graphId
 			});
 
 			this.data_table = this.wrapper.getDataTable();
